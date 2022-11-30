@@ -185,9 +185,8 @@ margin-top: 40px;}
     width: 400px;
 }
 #home-gallery{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
 }
 .home-gallery-h2 {
     text-align: center;
