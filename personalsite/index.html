@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>rommel root</title>
     <link rel="stylesheet" href="rommelstyle.css">
+    
 </head>
 <body>
     <div id="content">
@@ -118,34 +119,69 @@
                 <img class="type-img1" src="images/gallery1.jpg" alt="">
                 <img class="type-img2" src="images/gallery2.jpg" alt="">
             </section>
+
+            <h2 class=home-gallery-h2>photos of plants</h2>
             
             <section id="home-gallery">
-                <h2 class=home-gallery-h2>photos of plants</h2>
                 
-                <a href="index.html">
-                    <img  src="images/feed3.jpg" alt="feed 3">
-                </a>
-                <a href="index.html">
-                    <img  src="images/feed4.jpg" alt="feed 4">
-                </a>
-                <a href="index.html">
+                
+                <div class="gallery__item" >
+                    <img id="myImg" src="images/feed3.jpg" alt="feed 3">
+                </div>
+                <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                </div>
+                <script>
+                    // Get the modal
+                    var modal = document.getElementById("myModal");
+                    
+                    // Get the image and insert it inside the modal - use its "alt" text as a caption
+                    var img = document.getElementById("myImg",);
+                    var modalImg = document.getElementById("img01");
+                    var captionText = document.getElementById("caption");
+                    img.onclick = function(){
+                      modal.style.display = "block";
+                      modalImg.src = this.src;
+                      captionText.innerHTML = this.alt;
+                    }
+                    
+                    // Get the <span> element that closes the modal
+                    var span = document.getElementsByClassName("close")[0];
+                    
+                    // When the user clicks on <span> (x), close the modal
+                    span.onclick = function() { 
+                      modal.style.display = "none";
+                    }
+
+
+                </script>
+
+                <div class="gallery__item">
+                    <img id="myImg2" src="images/feed4.jpg" alt="feed 4">
+                </div>
+
+
+                <div class="gallery__item">
                     <img  src="images/feed5.jpg" alt="feed 5">
-                </a>
-                <a href="index.html">
+                </div>
+                <div class="gallery__item">
                     <img  src="images/feed6.jpg" alt="feed 6">
-                </a>
-                <a href="index.html">
+                </div>
+                <div class="gallery__item" >
                     <img  src="images/feed7.jpg" alt="feed 7">
-                </a>
-                <a href="index.html">
+                </div>
+                <div class="gallery__item" >
                     <img  src="images/feed8.jpg" alt="feed 8">
-                </a>
-                <a href="index.html">
+                </div>
+                <div class="gallery__item" >
                     <img  src="images/feed9.jpg" alt="feed 9">
-                </a>
-                <a href="index.html">
+                </div>
+                <div class="gallery__item" >
                     <img  src="images/feed10.jpg" alt="feed 10">
-                </a>
+                </div>
+
 
             </section>
         </main>
@@ -166,5 +202,7 @@
             </div>
         </footer>
     </div>
+
+
 </body>
 </html>
