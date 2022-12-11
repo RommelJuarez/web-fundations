@@ -48,18 +48,17 @@
     text-decoration: none;
     color: white;
     font-weight: bolder;
-}
-h1{
-    margin: 25px;
-}
+    }
 
-    
-   
-     header nav{
+    h1{
+        margin: 25px;
+    }
+
+    header nav{
         display: flex;
         justify-content: space-around;
-        
     }
+
     header nav a {
         text-align: center;
         text-decoration: none;
