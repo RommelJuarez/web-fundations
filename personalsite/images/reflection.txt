@@ -1,0 +1,26 @@
+Please respond thoroughly (at least two sentences for each question) to
+the following three questions.
+
+1. Describe an experience you had this semester where you saw the power of
+functions.
+
+-When I wrote the code for the program that generated a random landscape, 
+I realized that functions have a lot of power to generate other types of 
+data randomly, very useful, and that I can reuse the function. It's great.
+
+
+
+2. In your judgment, what is the value of test functions?
+
+-Very useful for teamwork and that coworkers can be sure that 
+they can reuse the functions in their code.
+
+3. Describe your process for troubleshooting and fixing a program that
+has a problem. What is one thing you can do to improve your process?
+
+-When I have a problem writing code I usually write on paper what I am doing,
+what is my goal and how can I divide it into small parts so I can realize 
+where I am failing and find a solution,
+I can improve by using the test functions more often during the writing 
+process instead of only at the end.
+
